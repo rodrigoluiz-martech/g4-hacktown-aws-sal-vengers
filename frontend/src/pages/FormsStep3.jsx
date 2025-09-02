@@ -54,12 +54,12 @@ function FormsStep3() {
             </div>
           </div>
 
-          <button 
-            type="submit" 
-            className="w-full bg-orange-500 hover:bg-orange-600 text-white font-semibold py-3 px-4 rounded-lg transition-colors"
+          <Link 
+            to="/forms/finishpage"
+            className="w-full bg-orange-500 hover:bg-orange-600 text-white font-semibold py-3 px-4 rounded-lg transition-colors block text-center"
           >
             Próximo →
-          </button>
+          </Link>
         </form>
 
         {/* CTA */}
